@@ -2,7 +2,9 @@
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
     text-decoration: none;
+    text-align: center;
 }
+
 body{
     background-color: #f6f8fc;
 }
@@ -14,6 +16,25 @@ body{
     background-color: #fff;
 }
 
+.content h1{
+    text-transform: capitalize;
+}
+.content h3{
+    margin: 1vh;
+}
+.content ol{
+    list-style: none;
+    margin: 1vh;
+}
+.content p{
+    margin: 1vh;
+}
+
+.details{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 @media screen and (min-width: 992px) {
     .content {
         max-width: 992px;
@@ -22,6 +43,3 @@ body{
         border-radius: 1rem;
     }
   }
-
-
-
